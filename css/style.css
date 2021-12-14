@@ -1,4 +1,8 @@
 /* dimensioni e colore custom per le arrow */
+body{
+    background-color: rgb(32, 31, 32);
+    color: white;
+}
 .fas{
     font-size: 40px;
     color: red;
