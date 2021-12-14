@@ -31,6 +31,7 @@ const backButton = document.querySelector('.back');
 //azione bottone next ad ogni click
 //con index++
 //variabile.innerhtml = indice corrente
+//quando l'indice avrà superato la lunghezza dell' array allora ritorna a 0 con la condizione
 nextButton.addEventListener('click',function(){
     currentIndex++;
     if(currentIndex > title.length - 1){
@@ -42,6 +43,7 @@ nextButton.addEventListener('click',function(){
 //azione bottone back ad ogni click
 //con index--
 //variabile.innerhtml = indice corrente
+//quando l'indice sarà sotto lo zero allora si posizionerà alla lunghezza massima dell'array
 backButton.addEventListener('click',function(){
     currentIndex--;
     if(currentIndex < 0){
