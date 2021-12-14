@@ -6,6 +6,7 @@ body{
 .fas{
     font-size: 40px;
     color: red;
+    cursor: pointer;
 }
 .image-box{
     height: 250px;
